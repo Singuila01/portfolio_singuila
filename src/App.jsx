@@ -20,10 +20,10 @@ function App() {
             <header id='entete' className='text-center bg-zinc-800 text-white shadow-xl'>
                 <div className='flex flex-col justify-between items-center h-screen backdrop-blur-lg p-10'>
                     <div className='flex flex-row gap-5 rounded-full pl-5 pr-5 pb-2 pt-2 zones'>
-                        <Link to="whoami" smooth={true} duration={500} className="myLink duration-100 hover:bg-purple-900 cursor-pointer font-bold text-2xl p-4 rounded-full"><img className='myImage' src={home} /></Link>
-                        <Link to="parcours" smooth={true} duration={500} className="myLink duration-100 hover:bg-purple-900 cursor-pointer font-bold text-2xl p-4 rounded-full"><img className='myImage' src={way} /></Link>
-                        <Link to="competences" smooth={true} duration={500} className="myLink duration-100 hover:bg-purple-900 cursor-pointer font-bold text-2xl p-4 rounded-full"><img className='myImage' src={brain} /></Link>
-                        <Link to="experiences" smooth={true} duration={500} className="myLink duration-100 hover:bg-purple-900 cursor-pointer font-bold text-2xl p-4 rounded-full"><img className='myImage' src={star} /></Link>
+                        <Link to="whoami" smooth={true} duration={500} className="myLink duration-350 hover:bg-purple-900 cursor-pointer font-bold text-2xl p-4 rounded-full"><img className='myImage' src={home} /></Link>
+                        <Link to="parcours" smooth={true} duration={500} className="myLink duration-350 hover:bg-purple-900 cursor-pointer font-bold text-2xl p-4 rounded-full"><img className='myImage' src={way} /></Link>
+                        <Link to="competences" smooth={true} duration={500} className="myLink duration-350 hover:bg-purple-900 cursor-pointer font-bold text-2xl p-4 rounded-full"><img className='myImage' src={brain} /></Link>
+                        <Link to="experiences" smooth={true} duration={500} className="myLink duration-350 hover:bg-purple-900 cursor-pointer font-bold text-2xl p-4 rounded-full"><img className='myImage' src={star} /></Link>
                     </div>
                     <div className='flex flex-col gap-10'>
                         <h1 className='font-black text-7xl'>Singuila MBAYE AMADOU</h1>
@@ -141,7 +141,7 @@ function App() {
                             </div>
                         </div>
                         <div>
-                            <img src={cv} className='monImage hover:scale-105 hover:rounded-2xl duration-350' />
+                            <img src={cv} className='monImage hover:scale-105 hover:rounded-2xl duration-350 cursor-pointer' alt='Cliquez pour télécharger mon CV !'/>
                         </div>
                     </div>
                     {/* <div>
