@@ -105,7 +105,7 @@ function App() {
                 </div>
 
                 {/* ACTUELLEMENT CHEZ TOUZAZIMUT */}
-                <div className='h-96 justify-center items-center bg-[url(./assets/it.jpg)] bg-no-repeat bg-cover w-full overflow-hidden text-black backdrop-opacity-100'>
+                <div id='actuellementchez' className='h-96 justify-center items-center bg-[url(./assets/it.jpg)] bg-no-repeat bg-cover w-full overflow-hidden text-black backdrop-opacity-100'>
                     <div className='flex flex-col backdrop-blur-xl h-full gap-4.5 w-screen items-center justify-center'>
                         <h1 className='text-5xl font-bold'>Actuellement</h1>
                         <div className='grid grid-cols-2'>
@@ -196,7 +196,7 @@ function App() {
                 </div>
 
                 {/* PIED DE PAGE */}
-                <div>
+                <div id='footer'>
                     <div className='p-10'>
                         <ul className='flex flex-row justify-between items-center'>
                             <li className=''>Singuila - 2025</li>
