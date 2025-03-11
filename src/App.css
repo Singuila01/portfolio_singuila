@@ -15,6 +15,77 @@
     height: 25px;
 }
 
+#experiences div{
+    display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+    #whoami{
+        margin: 50px;
+        gap: 20px;
+        height: 1200px;
+    }
+    #whoami div img{
+        margin: auto;
+    }
+    #whoami div:last-child{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin: auto;
+        text-align: center;
+    }
+
+    #parcours{
+        height: 850px;
+    }
+    #parcours>div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {
+    #whoami{
+        gap: 20px;
+    }
+    #whoami>div{
+        margin: 0;
+        padding: 0;
+    }
+    #whoami div img{
+        height: 100%;
+    }
+
+    #actuellementchez{
+        height: 500px;
+        padding: 20px;
+    }
+    #actuellementchez>div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    #parcours{
+        height: 1200px;
+    }
+    #parcours>div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #competences{
+        height: 100%;
+        min-height: 1200px;
+    }
+    #competences>div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #footer div ul{
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 20px;
+    }
+}
+
 /* .myLink{
     background: rgba(0, 0, 255, 0.438);
 } */
